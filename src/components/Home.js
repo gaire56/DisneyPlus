@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import ReactCarousel from './ReactCarousel';
+import Viewers from './Viewers';
 
 const Home = () => {
   return (
     <Container>
       <ReactCarousel />
+      <Viewers />
     </Container>
   );
 };
