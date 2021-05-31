@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Movies from './Movies';
 import ReactCarousel from './ReactCarousel';
 import Viewers from './Viewers';
 
@@ -8,6 +9,7 @@ const Home = () => {
     <Container>
       <ReactCarousel />
       <Viewers />
+      <Movies />
     </Container>
   );
 };
